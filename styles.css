@@ -1,0 +1,446 @@
+* {
+    margin: 40px;
+}
+img {
+    position: relative;
+    right: 100px;
+    bottom: 100px;
+}
+div {
+    font-size: 50px;
+    color: white;
+    padding: 10px;
+    text-align: left;
+    vertical-align: top;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}   
+.index {
+    border: solid 2px;
+    border-color: rgb(109, 109, 109);
+    background-color: lightgrey;
+    color: white;
+    text-decoration: none;  
+    border-radius: 25px;
+    padding: 6px;
+    position: relative;
+    left: 40px;
+}
+.routines {
+    border: solid 2px;
+    border-color: rgb(109, 109, 109);
+    background-color: lightgrey;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    padding: 6px;
+    position: relative;
+    left: 40px;
+}
+.exercises {
+    border: solid 2px;
+    border-color: rgb(109, 109, 109);
+    background-color: lightgrey;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    padding: 6px;position: relative;
+    left: 40px;
+}
+.about {
+    border: solid 2px;
+    border-color: rgb(109, 109, 109);
+    background-color: lightgrey;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    padding: 6px;
+    position: relative;
+    left: 40px;
+}
+.topnav {
+    position: relative;
+    padding: 6px;
+    background-color: rgb(211, 109, 109);
+    width: 1200px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 300px;
+    right: 260px;
+    padding-right: 300px;
+    bottom: 30px;
+    top: 0px;
+/* makes the background colour of the individual link you are hovering darkgrey*/ 
+}
+.topnav a:hover {
+    background-color: darkgrey;
+}
+.workingout {
+    color: red;
+}
+.howtostart {
+    color: white;
+    border: solid 2px;
+    border-color: rgb(109, 109, 109);
+    position: relative;
+    bottom: 250px;
+    right: 50px;
+    font-size: 55px;
+    height: 180px;
+    width: 665px;
+    background-color: lightgrey;
+    margin-left: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-bottom-right-radius: 25px;
+    border-top-left-radius: 25px;
+    top: 140px;
+}
+.vline {
+    border: 2px solid rgb(63, 62, 62);
+    margin: 0px;
+    margin-bottom: 50px;
+    height: 300px;
+    position: relative;
+    bottom: 265px;
+    top: 135px;
+}
+.titleimage {
+    display: flex;
+    position: relative;
+  }
+.pullupimg {
+    left: 40px;
+    bottom: 300px;
+    width: 520px;
+    border: solid red 3px;
+    border-radius: 25px;
+    position: relative;
+    top: 100px;
+}
+.p1 {
+    border: solid 3px darkgrey;
+    width: 600px;
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    left: 750px;
+    border-top-right-radius: 25px;
+    padding: 10px;
+    bottom: 150px;
+    position: relative;
+    top: 450px;
+}
+.anxiety {
+    width: 665px;
+    position: relative;
+    bottom: 500px;
+    left: 20px;
+    border-radius: 25px;
+    border: solid red 3px;
+    top: 100px;
+}
+.motivation {
+    width: 665px;
+    border-radius: 25px;
+    border: solid red 3px;
+    left: 700px;
+    bottom: 700px;
+    position: relative;
+    top: 0px;
+    bottom: 200px;
+}
+.p2 {
+    border: solid 3px darkgrey;
+    width: 600px;
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    left: 20px;
+    border-top-left-radius: 25px;
+    padding: 10px;
+    position: relative;
+    bottom: 200px;
+    top: 430px;
+}
+.hline {
+    border: 2px solid rgb(63, 62, 62);
+    position: relative;
+    width: 1400px;
+    margin-left: 0px;
+    bottom: 550px;
+}
+nav {
+    position: sticky;
+    top: 0;
+    z-index: 2; 
+}
+.hline2 {
+    border: 2px solid rgb(63, 62, 62);
+    position: relative;
+    width: 1400px;
+    margin-left: 0px;
+    bottom: 730px;
+}
+.routinestitle {
+    border-color: rgb(109, 109, 109);
+    line-height: 160px;
+    color: white;
+    position: relative;
+    right: 40px;
+    top: 155px;
+    border: solid 2px;
+    border-color: rgb(109, 109, 109);
+    font-size: 55px;
+    height: 180px;
+    width: 665px;
+    background-color: lightgrey;
+    margin-left: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-bottom-right-radius: 25px;
+    border-top-left-radius: 25px;
+}
+.routinesimg {
+    width: 650px;
+    border: solid red 3px;
+    border-radius: 25px;
+    position: relative;
+    left: 700px;
+    bottom: 200px;
+}
+.hline3 {
+    border: 2px solid rgb(63, 62, 62);
+    position: relative;
+    width: 1400px;
+    bottom: 150px;
+    right: 30px;
+}
+.routines1 {
+    position: relative;
+    right: 30px;
+    top: 20px;
+    text-align: center;
+    line-height: 175px;
+    color: red;
+    border: solid 2px;
+    border-color: rgb(109, 109, 109);
+    font-size: 55px;
+    height: 180px;
+    width: 665px;
+    background-color: lightgrey;
+    margin-left: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-bottom-right-radius: 25px;
+    border-top-left-radius: 25px;
+
+    /* the position absolute and the -3 margin left flip the line which makes it a vertical line instead of a horizontal line*/ 
+}
+.vl {
+    border: 2px solid rgb(63, 62, 62);
+    height: 400px;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    top: 0;
+  }
+.vline2 {
+    position: relative;
+    bottom: 155px;
+    right: 25px;
+}
+.ppl {
+    position: relative;
+    bottom: 340px;
+    left: 700px;
+    width: 650px;
+    height: 300px;
+    border-radius: 25px;
+    border: solid red 3px;
+}
+.vl1 {
+    border: 2px solid rgb(63, 62, 62);
+    height: 1400px;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    top: 0;
+  }
+.vline3 {
+    position: relative;
+    bottom: 290px;
+    right: 25px;
+    }
+.routines2 {
+    position: relative;
+    right: 30px;
+    bottom: 200px;
+    text-align: center;
+    line-height: 175px;
+    color: red;
+    border: solid 2px;
+    border-color: rgb(109, 109, 109);
+    font-size: 55px;
+    height: 180px;
+    width: 665px;
+    background-color: lightgrey;
+    margin-left: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-bottom-right-radius: 25px;
+    border-top-left-radius: 25px; 
+    }
+.days5 {
+    position: relative;
+    bottom: 500px;
+    left: 700px;
+    width: 650px;
+    height: 300px;
+    border-radius: 25px;
+    border: solid red 3px;
+    }
+.routines3 {
+    position: relative;
+    right: 30px;
+    bottom: 340px;
+    text-align: center;
+    line-height: 175px;
+    color: red;
+    border: solid 2px;
+    border-color: rgb(109, 109, 109);
+    font-size: 55px;
+    height: 180px;
+    width: 665px;
+    background-color: lightgrey;
+    margin-left: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-bottom-right-radius: 25px;
+    border-top-left-radius: 25px; 
+        }
+.days3 {
+    position: relative;
+    bottom: 640px;
+    left: 700px;
+    width: 650px;
+    height: 300px;
+    border-radius: 25px;
+    border: solid red 3px;
+        }
+.exercisestitle {
+    border-color: rgb(109, 109, 109);
+    color: white;
+    position: relative;
+    right: 40px;
+    top: 155px;
+    border: solid 2px;
+    border-color: rgb(109, 109, 109);
+    font-size: 55px;
+    height: 180px;
+    width: 665px;
+    background-color: lightgrey;
+    margin-left: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-bottom-right-radius: 25px;
+    border-top-left-radius: 25px;
+    line-height: 87px;
+}
+.extra {
+    border: solid 3px darkgrey;
+    text-align: center;
+    width: 1100px;
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-top-right-radius: 25px;
+    position: relative;
+    padding: 10px;
+    border-top-left-radius: 25px;
+    position: relative;
+    left: 90px;
+    bottom: 510px;
+    background-color: lightgrey;
+    font-style: italic;
+}
+.extrahome {
+    border: solid 3px darkgrey;
+    text-align: center;
+    width: 1100px;
+    
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-top-right-radius: 25px;
+    position: relative;
+    padding: 10px;
+    border-top-left-radius: 25px;
+    position: relative;
+    left: 100px;
+    background-color: lightgrey;
+    font-style: italic;
+}
+.abouttitle {
+    border-color: rgb(109, 109, 109);
+    line-height: 160px;
+    color: white;
+    position: relative;
+    top: 50px;
+    left: 350px;
+    border: solid 2px;
+    border-color: rgb(109, 109, 109);
+    font-size: 55px;
+    height: 180px;
+    width: 665px;
+    background-color: lightgrey;
+    margin-left: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-bottom-right-radius: 25px;
+    border-top-left-radius: 25px;
+}
+.aboutp {
+    border: solid 3px darkgrey;
+    position: relative;
+    left: 50px;
+    top: 70px;
+    width: 1200px;
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 25px;
+    padding: 10px;
+}
+form {
+    border: 4px solid ;
+    border-color: rgb(109, 109, 109);
+    border-radius: 25px;
+    position: relative;
+    top: 100px;
+}
+.newsletter {
+    padding: 20px;
+    background: rgb(109, 109, 109);
+}
+input[type=text], input[type=submit] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  input[type=checkbox] {
+    margin-top: 16px;
+  }
+  input[type=submit] {
+    background-color: rgb(211, 109, 109);
+    color: white;
+    border: none;
+  }
+
+  /* This makes the submit button a dark red when you hover over it*/ 
+  input[type=submit]:hover {
+    background-color: rgb(250, 99, 99);
+  }
+
+  textarea {
+    background-color: rgb(211, 109, 109);
+    color: white;
+    width: 1251px;
+    position: relative;
+    right: 50px;
+
+    /* this makes it so that only the textarea placeholder is white*/ 
+  }
+  textarea::placeholder {
+    color: white;
+  }
